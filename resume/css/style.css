@@ -1,0 +1,26 @@
+body{
+background-color: #f9c7ec;
+background-image: url(https://prokhv.ru/uploads/medialib/thumbnails/df8f3864-ec32-48e0-b73d-14b3b1fbbcd2_article_cover.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Times New Roman', Times, serif; 
+font-style: italic;
+}
+h1,h2 {
+	font-size: 30px;
+	text-shadow: 0 0 10px;
+	color:#514d50;
+}
+tr,td{
+	border: 3px;
+	border-style: ridge;
+	border-color: grey;
+	background-color: #e0d9de;
+	opacity: .9;
+
+	}
+img{box-shadow: 0 0 20px;
+	border: ridge;
+	border-color: grey;
+	border-radius: 5px;
+}
