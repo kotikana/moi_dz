@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding: 0;
+}
+html{
+margin:20px;
+background-color: #2B81AC;
+}
+body{
+font-family:  “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+background-color:#3399CC;
+color:white;
+padding: 50px;
+}
+.wi{
+font-size: 30px;
+}
+header{
+display:flex;
+flex-direction: row;
+margin:5px 40px 20px 100px;
+}
+main{margin:70px;}
+.cities{
+display:flex;
+flex-flow:row wrap;
+width: 100%;
+border: 4px solid white;
+margin-left: auto;
+margin-right: auto;
+}
+p{
+margin:50px;
+font-size: 24px;
+}
+.cities li span~span,.cities li span~span+i{
+color:#C4CCCC;
+}
+.cities li{
+box-sizing:border-box;
+list-style-type: none;
+border: 2px solid white;
+height: 160px;
+text-align: center;
+line-height: 1.5;
+padding-top: 40px;
+font-size: 24px;
+margin-right:0;
+margin-left:0;
+}
+.cities:hover li:not(:hover){
+opacity:0.4;
+}
+.lis{
+flex-grow: 0;
+flex-basis:50%;
+background-color:#3399CC;
+}
+.par{
+flex-basis:25%;
+background-color: #33CCCC;
+}
+.bel{
+flex-basis:25%;
+background-color:#996699;
+}
+.mos{
+flex-basis:25%;
+background-color:#C24747;
+}
+.tel{
+flex-basis:50%;
+background-color:#E2674A;
+}
+.cair{
+flex-basis:25%;
+background-color:#FFCC66;
+}
+.york{
+flex-basis:25%;
+background-color:#99CC99
+}
+.delhi{
+flex-basis:25%;
+background-color:#669999;
+}
+.san{
+flex-basis:25%;
+background-color:#CC6699;
+}
+.tok{
+flex-basis:25%;
+background-color:#339966;
+}
+.syd{
+flex-basis:100%;
+bacflex-basiskground-color:#656598;
+}
