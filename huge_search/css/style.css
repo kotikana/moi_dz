@@ -1,0 +1,86 @@
+*{
+margin-bottom: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body,button,.search{
+background: #F1F1F1;
+}
+.main-cont{
+width: 100%;
+
+}
+section{
+display: inline-block;
+width: 25%;
+color:#B2B2B4;
+font:12px Arial, sans-serif;
+font-weight: bold;
+}
+h2{
+text-transform: uppercase;
+font:16px Arial, sans-serif;
+font-weight: bold;
+}
+ul{
+list-style: none;
+}
+li{
+padding: 15px;
+margin:5px;
+background-color: #EBEBED;
+}
+a{
+color: #B2B2B4;
+text-decoration: none;
+}
+li:hover>a{
+color: #ec5a62;}
+li:hover{
+background:#E4E4E6;
+}
+.list-people img{
+border-radius: 50%;
+}
+.list-people img,
+.list-popular img,
+.list-recent img{
+vertical-align: middle;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+}
+.sect1{
+margin:60px 20px 60px 120px;
+}
+.sect2{
+margin:60px 20px;
+}
+.sect3{
+margin: 60px 100px 60px 20px;
+}
+.search{
+font-size: 100px;
+font-weight: bold;
+border: inherit;
+width: 70%;
+margin-left: 150px;
+margin-top: 50px;
+outline: none;
+}
+::-webkit-input-placeholder {color:#C2C2C2;}
+::-moz-placeholder          {color:#C2C2C2;} /*Firefox 19+ */
+:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#c0392b;}
+button{
+width: 100px;
+height: 100px;
+border: inherit;
+outline: none;
+}
+button:active{	border: 1px solid black;
+}
+li:hover{
+color: #ec5a62;
+background:#E4E4E6;
+}
