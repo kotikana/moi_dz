@@ -13,6 +13,9 @@
     font-style:normal;
 
 }
+body{
+    color:  #48bf72;
+}
 .header{
 height: 650px;
 background-image: url(../img/computer.jpg);
@@ -87,8 +90,8 @@ text-align: center;
 position: relative;
 background-color: transparent;
 border-radius: 3px;
-border: 2px solid #48bf72;
-color:  #48bf72;
+color:  currentColor;
+border: 2px solid currentColor;
 width: 134px;
 height: 35px;
 text-transform: uppercase;
