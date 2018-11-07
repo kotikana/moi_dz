@@ -213,6 +213,7 @@ width: 705px;
 height: 70px;
 border-radius: 50px;
 margin-top: 20px;
+position: relative;
 
 }
 .subscribe_form_img{
@@ -238,7 +239,16 @@ text-align: center;
 border: none;
 border-top-right-radius: 50px;
 border-bottom-right-radius: 50px;
+
 }
+
+.subscribe_form:after{
+content: ''; 
+position: absolute;
+border: 10px solid transparent;
+border-left: 10px solid white;
+right: 33px;
+bottom: 24px;}
 .subscribe_form_button:focus{
 border: inherit;
 outline: none;
