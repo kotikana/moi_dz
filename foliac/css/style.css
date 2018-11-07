@@ -138,11 +138,11 @@ background: rgba(72,191,114, .9);
 top:0;
 left:0;
 color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 11px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 11px;
 }
 
 .portfolio_item:hover .portfolio_caption {
