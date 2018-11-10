@@ -171,6 +171,10 @@ letter-spacing:0.04em;
 opacity:1;
 background: #E10011;
 }
+/*.main_img_item:hover{
+transform: scale(.2);
+transition:all .2s;
+}*/
 .header_link:hover,
 .header_button:hover{
 padding:5px;
@@ -255,4 +259,24 @@ outline: none;
 }
 .subscribe_form_button:hover{
 background:#FF5B6C; 
+}
+.social{
+display: flex;
+justify-content: center;
+margin:auto;
+width: 1200px;
+height: 100px;
+}
+.social_item{
+margin:0 10px;
+}
+.footer{
+text-align: center;
+font:18px/24px Raleway;
+color:  #979797;
+font-weight: 400;
+}
+.footer_item{
+color:#373737;
+text-decoration: none;
 }
