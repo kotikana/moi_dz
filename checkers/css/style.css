@@ -1,0 +1,158 @@
+
+body{
+  perspective:1200px;
+}
+.square {
+  width:800px;
+  height:800px;
+  background: #E2CEB0;
+  background-image:linear-gradient(45deg,black 25%,transparent 25%,transparent 75%,black 75%),
+  linear-gradient(45deg,black 25%,transparent 25%,transparent 75%,black 75%);
+  background-repeat:repeat;
+  background-size:200px 200px;
+  background-position:100px 0, 0 100px;
+  position:relative;
+  margin: auto;
+  transform:rotatex(55deg) rotateZ(10deg); 
+  border:40px solid black;
+  box-shadow: 0px 30px 40px black;
+}
+.shashka_white{
+  display:block;
+  width:80px;
+  height:80px;
+  position:absolute;
+  background:white;
+  border-radius:50%;
+  border:1px solid white;
+  margin:5px;
+  background: radial-gradient(transparent,#FFD9A0);
+  box-shadow: 1px 1px 5px white;
+}
+.shashka__one{
+ position:absolute;
+ bottom:0;
+ right:0; 
+}
+
+.shashka__two {
+    bottom: 104px;
+    right: 102px;
+}
+.shashka__three{
+ position:absolute;
+    bottom: 2px;
+    right: 202px
+}
+.shashka__four{
+ position:absolute;
+ bottom:0;
+ right:405px; 
+}
+.shashka__five{
+ position:absolute;
+ bottom:0;
+ right:605px; 
+}
+.shashka__six{
+ position:absolute;
+ bottom:103px;
+ right:302px; 
+}
+.shashka__seven{
+ position:absolute;
+ bottom:103px;
+ right:503px; 
+}
+.shashka__eight{
+ position:absolute;
+ bottom:103px;
+ left:0; 
+}
+.shashka__nine{
+ position:absolute;
+ bottom:203px;
+ right:0; 
+}
+.shashka__ten{
+ position:absolute;
+ bottom:203px;
+ right:203px; 
+}
+.shashka__eleven{
+ position:absolute;
+ bottom:203px;
+ left:103px; 
+}
+.shashka__twelve{
+ position:absolute;
+ bottom:203px;
+ left:303px; 
+}
+.shashka_black{
+  display:block;
+   width:80px;
+  height:80px;
+  border-radius:50%;
+  border:1px solid white;
+  margin:5px;
+  background: radial-gradient(transparent,#867254);
+  box-shadow: 1px 1px 5px darkgray;
+}
+  .shashka__thirteen{
+ position:absolute;
+ top:3px;
+ left:203px; 
+}
+.shashka__fourteen{
+ position:absolute;
+ top:3px;
+ left:403px; 
+}
+.shashka__fifteen{
+ position:absolute;
+ top:3px;
+ right:103px; 
+}
+.shashka__sixteen{
+ position:absolute;
+ top:103px;
+ left:303px; 
+}
+.shashka__seventeen{
+ position:absolute;
+ top:103px;
+ left:103px; 
+}
+.shashka__eighteen{
+ position:absolute;
+ top:3px;
+ left:3px; 
+}
+.shashka__nineteen{
+ position:absolute;
+ top:203px;
+ left:3px; 
+}
+.shashka__twenty{
+ position:absolute;
+ top:103px;
+ right:203px; 
+}
+.shashka__twentyone{
+ position:absolute;
+ top:103px;
+ right:3px; 
+}.shashka__twentytwo{
+ position:absolute;
+ top:203px;
+ left:403px; 
+}.shashka__twentythree{
+ position:absolute;
+ top:203px;
+ left:603px; 
+}.shashka__twentyfour{
+ position:absolute;
+ top:203px;
+ left:203px; 
+}

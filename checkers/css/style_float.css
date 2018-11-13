@@ -1,0 +1,162 @@
+
+body{
+  perspective:1200px;
+}
+.square {
+  width:800px;
+  height:800px;
+  background: #E2CEB0;
+  background-image:linear-gradient(45deg,black 25%,transparent 25%,transparent 75%,black 75%),
+  linear-gradient(45deg,black 25%,transparent 25%,transparent 75%,black 75%);
+  background-repeat:repeat;
+  background-size:200px 200px;
+  background-position:100px 0, 0 100px;
+  margin:auto;
+  transform:rotatex(55deg) rotateZ(10deg); 
+border:40px solid black;
+box-shadow: 0px 30px 40px black;
+}
+.shashka_white{
+  display:block;
+  width:80px;
+  height:80px;
+  position:absolute;
+  background:white;
+  border-radius:50%;
+  border:1px solid white;
+  margin:5px;
+  background: radial-gradient(transparent,#FFD9A0);
+  box-shadow: 1px 1px 5px white;
+}
+.row1:after,.row2:after,.row3:after,
+.row4:after,.row5:after,.row6:after{
+display: block;
+content: '';
+clear: both;
+}
+.shashka__one{
+float: left;
+margin-top: 509px;
+margin-left: 708px;
+}
+.shashka__two {
+float: left;
+margin-top: 509px;
+margin-left: 508px;
+}
+.shashka__three{
+float: left;
+margin-top: 509px;
+margin-left: 308px;
+}
+.shashka__four{
+float: left;
+margin-top: 509px;
+margin-left: 108px;
+}
+.shashka__five{
+float: left;
+margin-top: 609px;
+margin-left: 610px;
+}
+.shashka__six{
+float: left;
+margin-top: 609px;
+margin-left: 410px;
+}
+.shashka__seven{
+float: left;
+margin-top: 609px;
+margin-left: 210px;
+}
+.shashka__eight{
+float: left;
+margin-top: 609px;
+margin-left: 10px;
+}
+.shashka__nine{
+float: left;
+margin-top: 716px;
+margin-left: 708px;
+}
+.shashka__ten{
+float: left;
+margin-top: 716px;
+margin-left: 508px;
+}
+.shashka__eleven{
+float: left;
+margin-top: 716px;
+margin-left: 308px;
+}
+.shashka__twelve{
+float: left;
+margin-top: 716px;
+margin-left: 108px;
+}
+.shashka_black{
+display:block;
+width:80px;
+height:80px;
+border-radius:50%;
+border:1px solid white;
+margin:5px;
+background: radial-gradient(transparent,#867254);
+box-shadow: 1px 1px 5px darkgray;
+}
+.shashka__thirteen{
+float: left;
+margin-right: 117px;
+}
+.shashka__fourteen{
+float: left;margin-right: 112px;
+}
+.shashka__fifteen{
+float: left;margin-right: 112px;
+}
+.shashka__sixteen{
+float: left;
+margin-right: 100px;
+margin-top: 10px;
+}
+.row5{    margin-top: 13px;}
+.shashka__seventeen{
+float: right;
+margin-right: 12px;
+margin-top: 10px;
+}
+.shashka__eighteen{
+float: right;
+margin-right: 112px;
+margin-top: 10px;
+}
+.shashka__nineteen{
+float: right;
+margin-right: 112px;
+margin-top: 10px;
+}
+.shashka__twenty{
+float: right;
+margin-right: 112px;
+margin-top: 14px;
+}
+.shashka__twentyone{
+float: right;
+margin-right: 112px;
+margin-top: 14px;
+}
+.shashka__twentytwo{
+float: right;
+margin-right: 112px;
+margin-top: 14px;
+}
+.shashka__twentythree{
+float: right;
+margin-right:112px;
+margin-top: 14px;
+}
+.shashka__twentyfour{
+float: left;
+margin-left: 12px;
+margin-top: 14px;
+}
