@@ -171,19 +171,17 @@ letter-spacing:0.04em;
 opacity:1;
 background: #E10011;
 }
-/*.main_img_item:hover{
-transform: scale(.2);
-transition:all .2s;
-}*/
-.header_link:hover,
-.header_button:hover{
-padding:5px;
-border-radius:5px; 
-box-shadow: 1px 2px 30px  #E10011;
-transition: .3s;
+.main_img_caption:hover h2{
+text-shadow: 1px 1px 5px white;
+}
+.header_link:hover{
+color:red;
+text-decoration: underline;;
 }
 .slider_block_span:hover{
 color:#FF5B6C;
+display: inline-block;
+transform: scale(1.5);
 }
 .subscribe{
 display: flex;
@@ -213,24 +211,21 @@ width: 590px;
 display: flex;
 flex-wrap: wrap;
 background: white;
-width: 705px;
 height: 70px;
 border-radius: 50px;
 margin-top: 20px;
 position: relative;
 
 }
-.subscribe_form_img{
-width: 30px;
-height: 30px;
-margin:18px 16px;
-}
+
 .subscribe_form_input{
-width: 433px;
+width: 408px;
 border: none;
 font:17px/24px Raleway,italic;
 color:  #979797;
 font-weight: 400;
+margin-left: 45px;
+outline: none;
 }
 .subscribe_form_button{
 width: 206px;
@@ -258,8 +253,11 @@ border: inherit;
 outline: none;
 }
 .subscribe_form_button:hover{
-background:#FF5B6C; 
+background:#C40010; 
 }
+.subscribe_form_button:active{
+top:3px;
+box-shadow: 0 2px 0 #E10011;} 
 .social{
 display: flex;
 justify-content: center;
@@ -270,6 +268,10 @@ height: 100px;
 .social_item{
 margin:0 10px;
 }
+.social_item:hover{
+	transition: .3s;
+transform: scale(1.2);
+}
 .footer{
 text-align: center;
 font:18px/24px Raleway;
@@ -279,4 +281,7 @@ font-weight: 400;
 .footer_item{
 color:#373737;
 text-decoration: none;
+}
+.footer_item:hover{
+	color: red;
 }
