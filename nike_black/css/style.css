@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "museo_sans";
+    src: url(../fonts/museosanslight-webfont.woff2) format('woff2'),
+         url(../fonts/museosanslight-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+body,html{
+  width: 100%;
+  height: 100%;
+
+}
+.main{
+  height: 600px;
+  width: 800px;
+  background-image: url(../img/bg.png),url(../img/Layer1.png),url(../img/Layer2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 100px auto;
+  position:relative;
+}
+.main:before{
+  content: '';
+  background: #CFD0D2;
+  opacity: .3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.main_section{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width:685px; 
+  height:390px;
+  position: relative;
+  background: #152335;
+  margin:109px 65px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 5px 5px 100px #293550;
+}
+.logo{
+  widows: 70px;
+  height: 47px;
+  position: absolute;
+  margin:22px;
+}
+.photo{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.point{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 350px;
+}
+.point_one{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #293550;
+  margin:5px;
+}
+.point_one:nth-child(2){
+  background:  #fff;
+}
+.point_one:nth-child(3){
+  background: #F34B41;
+}
+.point_one:last-child{
+  background :#24E7EE;
+}
+.point_one__current{
+  transform: scale(1.5);
+border:1px solid white;
+}
+.point_one:hover{
+  transform: scale(1.5);
+  border:1px solid white;
+}
+.main_photo{
+  position: absolute;
+  margin: 120px 40px;
+
+}
+.info{
+  padding: 30px;
+  color:#E7E7E7;
+}
+.info_h{
+  font: 24px/26px "museo_sans";
+  margin-top: 30px;
+}
+.info_h3{
+  font:14px/26px "museo_sans";
+  font-weight: 100;
+}
+.select{
+  display:flex;
+  margin-bottom: 20px;
+}
+.down_list{
+background: transparent; 
+font:16px/26px "museo_sans";
+width: 80px;
+height: 30px;
+color:white;
+outline: none;border:0;
+}
+.styled_select{
+  width: 67px;
+  height:30px;
+  overflow:hidden;
+ margin-right:5px;
+  border:1px solid white;
+  opacity: 0.26;
+  position:relative;
+
+}
+.styled_select:before{
+  content: "˅";
+  display: inline-block;
+  background:transparent;
+  color:white;
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  cursor: pointer;
+  right:-15px;
+  bottom:-2px
+}
+
+.button{
+  border: 1px solid white;
+  font:16px/26px "museo_sans";
+background-color:  #4c525a;
+opacity: 0.26;
+width: 182px;
+height: 38px;
+color: white;
+opacity: .26;
+outline-color: grey;
+
+}
+.button:hover{
+  box-shadow: 1px 1px 1px lightgrey;
+}
+.button:active{
+  box-shadow: 1px 2px 2px lightgrey;
+}
+.rating {
+  direction: rtl;
+  color:grey;
+  margin:20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.fa-star:hover ~ .fa-star,
+.fa-star:hover {
+  color: yellow;
+}
