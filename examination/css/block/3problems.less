@@ -1,0 +1,61 @@
+.problems{
+	height: 900px;
+	background: #EDEDED;
+	&_title{
+		font:700 36px/1 @fontMain;
+		color:  #262626;
+		text-align: center;
+		margin-top: -34px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		&:after{
+			content: url(../img/line_.svg);
+			display: block;
+		}
+	}
+	&_block{
+		display: flex;
+		justify-content: center;
+		&_list{
+			display: flex;
+			flex-direction: column;
+			width: 25%;
+			&_item{
+				padding: 13px;
+				font:400 14px/16px @fontMain;
+				color:  #575757;
+				&:hover{
+					background: #F8F8F8;
+					color:#733840;
+					transition: all .3s;
+				}
+				&:active{
+					background: @colorTitle;
+					color:black;
+					font-weight: 600;
+					transition: all .3s;
+				}
+				&:focus{
+					background: @colorTitle;
+					color:black;
+					font-weight: 600;
+					transition: all .3s;
+				}
+			}
+		}
+		&_img{
+			background: @colorTitle;
+			padding: 50px;
+			width: 640px;
+			&_title{
+				font:700 24px/1 @fontMain;
+				color:  #242728;
+				margin-top: 43px;
+			}
+			&_text{
+				font:400 14px/22px @fontMain;
+				color:  #575757;
+			}
+		}
+	}
+}
