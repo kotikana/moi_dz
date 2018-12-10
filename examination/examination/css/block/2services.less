@@ -1,0 +1,83 @@
+.services{
+	height: 1340px;
+	background: #EDEDED;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&_title{
+		font:700 36px/1 @fontMain;
+		color:  #262626;
+		text-align: center;
+		padding-top: 45px;
+		padding-bottom: 33px;
+		text-transform: uppercase;
+		&:after{
+			content: url(../img/line_.svg);
+			display: block;
+		}
+	}
+	&_subtitle{
+		font:700 24px @fontMain;
+		color:  #262626;
+		text-align: center;
+		text-transform: uppercase;
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+}
+.article {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	height: 100%;
+	&_link {
+		position: absolute;
+		top: 170px;
+		left:20%;
+		text-decoration: none;
+		background: #ffd800;
+		color: #000;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding: 15px 25px;
+		border-radius:5px; 
+		font: 12px/1 @fontMain;
+		&:hover {
+		background: lighten(#ffd800, 15%);
+		}
+	}
+	&_caption {
+		display: block;
+		padding: 10px 20px;
+		margin: auto;
+	text-transform: uppercase;
+		font: 700 14px/20px @fontMain;
+		text-align: center;
+		&__small {
+			font:100 14px/22px @fontMain;
+			text-align: left;
+			padding-left: 0;
+			text-transform: none;
+		}
+		&__discount{
+			font: 400 14px/20px @fontMain;
+			text-align: left;
+			padding: 20px 0 0;
+			margin: 0;
+			text-transform: none;
+text-align: center;
+		}
+	}
+		&_title {
+		font: 700 14px @fontMain;
+		text-align: center;
+		color:black;
+		text-transform: uppercase;
+		&__discount {
+			font-size: 60px;
+			font-weight: 900;
+			color: red;
+		}
+	}
+}

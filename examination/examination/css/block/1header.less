@@ -1,0 +1,92 @@
+.header{
+	height: 100vh;
+	background: url(../img/bg_header.png) 50% no-repeat ;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: @colorTitle;
+	&:before{
+		content:'';
+		position:absolute;
+		height:100vh;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background-size: cover;
+		background:#150a0c;
+		opacity:.7;
+	}
+	&_inner{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 20px;
+		&_logo{
+			display: flex;
+			&_text{
+				display: flex;
+				flex-direction:column;
+				justify-content: space-between;
+				font:400 14px/20px @fontMain;
+				color:#D3D7D9;
+				margin-left: 10px;
+				&_item{
+					margin-bottom: 5px;
+				}
+				&_item:after{
+					content: '';
+					display: block;
+					height: 1px;
+					width: 82%;
+					background: #D3D7D9;
+					margin-top: 10px;
+				}
+			}
+		}
+		&_contact{
+			display: flex;
+			flex-direction: column;
+			&_phone{
+				font: 400 18px/22px @fontMain;
+				margin-bottom: 5px;
+				font-weight: bold;
+			}
+			&_mail{
+				font: 400 13px/17px @fontMain;
+			}
+		}
+	}
+	&_text{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 15%;
+		text-transform: uppercase;
+		&_title{
+			font:700 40px/60px @fontMain;
+			text-align: center;
+			margin-bottom: 80px;
+			transform: scaleX(1.0005);
+			letter-spacing: 0.025em;
+		}
+		&_subtitle{
+			font:400 18px/24px @fontMain;
+			transform: scaleX(1.0005);
+			text-align: center;
+			margin-bottom: 30px;
+			letter-spacing: 0.075em;
+			&_yellow{
+				color: #ffea73;
+				 font-weight: bold;
+			}
+		}
+	}
+	&_scroll{
+		position: relative;
+		&_link{
+			display: inline-block;
+			margin-top: 130px;
+		}
+	}
+}
