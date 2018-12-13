@@ -1,0 +1,64 @@
+.problems{
+	background: #EDEDED;
+	&_title{
+		font:700 36px/1 @fontMain;
+		color:  #262626;
+		text-align: center;
+		margin-top: -34px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		&:after{
+			content: url(../img/line_.svg);
+			display: block;
+		}
+	}
+	&_obj{
+		display: flex;
+		justify-content: center;
+		padding-bottom:60px;
+		&_list{
+			display: flex;
+			flex-direction: column;
+			width: calc(100% / 3 * 1);
+			&_item{
+				padding: 13px;
+				font:400 14px/16px @fontMain;
+				color:  #575757;
+				&:hover{
+					background: @colorTitle;
+					color:#733840;
+					transition: all .3s;
+				}
+				&:active{
+					background: @colorTitle;
+					color:black;
+					font-weight: 600;
+					transition: all .3s;
+				}
+				&:focus{
+					background: @colorTitle;
+					color:black;
+					font-weight: 600;
+					transition: all .3s;
+				}
+			}
+		}
+		&_img{
+			display: flex;
+			flex-direction: column;
+			background: @colorTitle;
+			width: calc(100% / 3 * 2);
+			padding: 70px 50px;
+			&_title{
+				font:700 24px/1 @fontMain;
+				color:  #242728;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+			&_text{
+				font:400 14px/22px @fontMain;
+				color:  #575757;
+			}
+		}
+	}
+}

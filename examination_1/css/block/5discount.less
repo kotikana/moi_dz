@@ -1,0 +1,49 @@
+.discount{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	&_title{
+		font:700 36px/1 @fontMain;
+		color:  #262626;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 25px;
+		&:after{
+			content: url(../img/line_.svg);
+			display: block;
+		}
+	}
+	&_subtitle{
+		font:400 18px/1 @fontMain;
+		color:  #575757;
+		margin-bottom: 60px;
+		text-align: center;
+	}
+	&_block{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 70px;
+		&_item{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 22%;
+			&_subtitle{
+				font:700 14px/28px @fontMain;
+				color:  #150a0c;
+			}
+			&_title{
+				font:700 60px/90px @fontMain;
+				color:  #bf0508;
+			}
+			&_text{
+				font:400 14px/16px @fontMain;
+				color:  #575757;
+				text-align: center;
+			}
+		}
+
+	}
+}
