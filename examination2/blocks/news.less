@@ -1,0 +1,39 @@
+.news{
+	height: 1040px;
+	background: linear-gradient(to right, #378FDC 20%, #25CAF9 60%);
+	&_title{
+		color: @colorTitle;
+		font:500 44px/22px @fontTitle;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 170px;
+	}
+	&_slider{
+		margin-top: 80px;
+		height: 500px;
+		width: 370px;
+		background: white;
+		&_item{
+			display: flex;
+			flex-direction: column;
+			&_title{
+				font:700 22px/34px @fontTitle;
+				color:  #2c4058;
+			}
+			&_text{
+				font: 400 18px/30px 'Open Sans', sans-serif;
+				color:  rgba(74, 85, 98, 0.5);
+			}
+			&_author{
+				display: flex;
+				&_name{
+					font:300 18px/22px @fontTitle;
+					color:  #2c4058;
+					text-transform: uppercase;
+
+				}
+			}
+		}
+
+	}
+}

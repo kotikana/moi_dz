@@ -1,0 +1,75 @@
+.do{
+	margin-top: 100px;
+	min-width: 1170px;
+	&_title{
+		font:@fontBlueTitle;
+		color:@colorBlueTitle;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 90px;
+	}
+	&_center{
+		display: flex;
+		&_img{
+			display: block;
+			margin-bottom: 130px;
+			&_back{
+				position:absolute;
+				&__right{
+					position: absolute;
+					right: 0;
+				}
+			}
+			&_frame{
+				position: relative;
+				top: 70px;
+				left: 200px;
+				&__right{
+					position: relative;
+					top: 70px;
+				left: -200px;
+				}
+			}
+		}
+		&_text{
+			margin:0 240px;
+			&_subtitle{
+				margin-top: 140px;
+				margin-bottom: 20px;
+				font:300 22px/24px @fontTitle;
+				color: @colorBlueTitle;
+				text-transform: uppercase;
+			}
+			&_title{
+				font:@fontBlueTitle;
+				color:@colorBlueTitle;
+				text-transform: uppercase;
+				margin-bottom: 30px;
+			}
+			&_text{
+				font:400 18px/30px 'Open Sans', sans-serif;
+				color:  rgba(74, 85, 98, 0.5);
+				margin-bottom: 30px;
+			}
+			&_button{
+				background: transparent;
+				text-transform: uppercase;
+				font:300 14px/22px @fontTitle;
+				color:@colorBlueTitle;
+				padding:15px 40px; 
+				border:1px solid #2C4058;
+				margin-bottom:50px;
+			}
+			&_loc{
+				font:400 18px/30px 'Open Sans', sans-serif;
+				color:  #2c4058;
+				font-style: italic;
+				&_icon{
+					padding-rights: 5px;
+				}
+
+			}
+		}
+
+	}
+}
