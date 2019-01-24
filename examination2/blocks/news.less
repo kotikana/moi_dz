@@ -1,39 +1,69 @@
 .news{
-	height: 1040px;
-	background: linear-gradient(to right, #378FDC 20%, #25CAF9 60%);
+	background: #378FDC url(../img/Bg_news.png) no-repeat ;
+	background-size: cover;
+	position: relative;
+	margin-top: 100px;
 	&_title{
 		color: @colorTitle;
-		font:500 44px/22px @fontTitle;
+		font:500 44px/22px @fontGothamReg;
 		text-transform: uppercase;
 		text-align: center;
-		padding-top: 170px;
 	}
 	&_slider{
-		margin-top: 80px;
-		height: 500px;
-		width: 370px;
-		background: white;
+		padding-bottom: 200px;
 		&_item{
 			display: flex;
 			flex-direction: column;
-			&_title{
-				font:700 22px/34px @fontTitle;
-				color:  #2c4058;
+			margin:15px;
+			height: 500px;
+			width: 370px;
+			background: white;
+			position: relative;
+			&:hover &_hover{
+				opacity: 1;
+				transition: .3s;
+			}
+			&_hover{
+				opacity: 0;
+				position: absolute;
+				top: 15%;
+				left: 40%;
+				bottom: 0;
+				right: 0;
+				&:before{
+					content:url(../img/hover_slider.png);
+					position: absolute;
+				}
 			}
 			&_text{
-				font: 400 18px/30px 'Open Sans', sans-serif;
-				color:  rgba(74, 85, 98, 0.5);
-			}
-			&_author{
 				display: flex;
-				&_name{
-					font:300 18px/22px @fontTitle;
-					color:  #2c4058;
-					text-transform: uppercase;
-
+				flex-direction: column; 
+				padding: 20px;
+				&_title{
+					
+				}
+				&_text{
+					font: @fontOpenSans;
+					color:  @colorText;
+					margin-bottom: 30px;
+				}
+				&_author{
+					display: flex;
+					&_img{
+						vertical-align: middle;
+					}
+					&_name{
+						font:300 18px/22px @fontGothamBook;
+						color:  #2c4058;
+						text-transform: uppercase;
+						padding-left: 10px;
+					}
+					&_date{
+						font:300 14px/22px @fontGothamBook;
+						color:  #55b7ff;
+					}
 				}
 			}
 		}
-
 	}
 }

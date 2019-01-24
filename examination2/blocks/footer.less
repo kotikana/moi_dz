@@ -1,0 +1,91 @@
+.footer{
+	background:url(../img/bg_footer.jpg) no-repeat;
+	background-size: cover;
+	height: 520px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	&_nav{
+		display:flex;
+		justify-content: space-between;
+		margin-bottom: 40px;
+		@media (max-width: 600px){
+			flex-direction: column;
+			width: 50%;
+		}
+		&_social_item{
+			margin-left: 30px;
+			cursor: pointer;
+			&:hover{
+				transform: scale(1.1);
+				transition: .3s;
+			}
+		}
+	}
+	&_copy{
+		font:300 14px/22px @fontGothamBook;
+		color: @colorTitle;
+		text-align: left;
+		@media (max-width: 600px){
+			text-align: center;
+		}
+	}
+}
+.back{
+	background: url(../img/bg_get.png) no-repeat;
+	background-size: cover;
+	height: 450px;
+	padding:70px 50px;
+	position: absolute;
+	top: -300px;
+	&_get{
+		display: flex;
+		@media (max-width: 600px){
+			padding: 0px 65px;
+		}
+		&_contact{
+			display: flex;
+			flex-direction: column;
+			width: 50%;
+			&_item{
+				font:300 18px/34px @fontGothamBook;
+				color:  @darkBlue;
+				text-align: left;
+				padding-top: 25px;
+				&_icon{
+					color:  #7e5aff;
+					padding-right: 10px;
+				}
+			}
+		}
+		&_form{
+			display: flex;
+			flex-direction: column;
+			width: 50%;
+			&_name{
+				padding: 20px 10px 10px 0;
+				font:300 18px/34px @fontGothamBook;
+				color:  @colorText;
+				margin-bottom: 25px;
+				border: 0;
+				border-bottom: 1px solid;
+				outline: none;
+				&:focus{
+					border-bottom: 1px solid @darkBlue;
+					color:@darkBlue;
+				}
+			}
+			&_mail{
+				padding: 20px 10px 10px 0;
+				font:300 18px/34px @fontGothamBook;
+				color:  @colorText;
+				margin-bottom: 35px;
+				border: 0;
+				border-bottom: 1px solid;
+				outline: none;
+			}
+		}
+	}
+}

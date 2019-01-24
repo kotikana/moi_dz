@@ -1,0 +1,30 @@
+.button_block{
+	background: transparent;
+	text-transform: uppercase;
+	font:300 14px/22px @fontGothamBook;
+	color:@darkBlue;
+	padding:15px 40px; 
+	border:1px solid @darkBlue;
+	margin-bottom:50px;
+	outline: none;
+	&:hover{
+		background: lighten(@darkBlue, 70%);
+		box-shadow: 2px 2px lighten(@darkBlue, 30%);
+		top: 2px;
+		transition: .3s;
+	}
+	&:active{
+		box-shadow: 0 0 lighten(@darkBlue, 30%);
+		top: 6px;
+		transition: .3s;
+	}
+	&__gallery{
+		text-align: center;
+		margin: 60px auto 130px auto;
+		display: block;
+		padding: 15px 60px;
+	}
+	&__footer{
+		    align-self: flex-end;
+	}
+}

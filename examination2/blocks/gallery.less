@@ -1,0 +1,57 @@
+.gallery{
+	padding-top: 100px;
+	&_img{
+		display: flex;
+		@media (max-width: 600px){
+			flex-direction: column;
+		}
+		&_big{
+			margin-right: 10px;
+			position: relative;
+			&:hover &_hover{
+				opacity: 1;
+				transition: .3s;
+			}
+			&_hover{
+				opacity: 0;
+				top: 30%;
+				left: 40%;
+				bottom: 0;
+				right: 0;
+				position: absolute;
+				&:before{
+					content:url(../img/360.png);
+					position: absolute;
+				}
+			}
+		}
+		&_small{
+			display: flex;
+			flex-direction: column;
+			&_row{
+				display: flex;
+				margin-bottom: 5px;
+				&_item{
+					margin-right: 10px;
+					&_hover{
+						opacity: 0;
+						top: 30%;
+						left: 40%;
+						bottom: 0;
+						right: 0;
+						position: absolute;
+						&:before{
+							content:url(../img/360.png);
+							position: absolute;
+						}
+					}
+					position: relative;
+					&:hover &_hover{
+						opacity: 1;
+						transition: .3s;
+					}
+				}
+			}
+		}
+	}
+}
