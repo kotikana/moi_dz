@@ -5,6 +5,9 @@
 	margin-bottom: 30px;
 	text-align: center;
 	position: relative;
+	@media(max-width: 600px){
+		font-size: 30px;
+	}
 	&:before{
 		content: '';
 		display: block;
@@ -22,14 +25,20 @@
 		&:before{
 			background:  @colorTitle;
 			margin-top: 170px;
+			@media(max-width: 600px){
+				font-size: 30px;
+			}
 		}
 	}
-
 }
+
 .title_block__withoutLine{
 	font:@fontBlueTitle;
 	color:@darkBlue;
 	text-transform: uppercase;
 	margin-bottom: 30px;
 	position: relative;
+	@media(max-width: 600px){
+		font-size: 30px;
+	}
 }

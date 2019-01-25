@@ -1,44 +1,74 @@
 .do{
 	padding-top: 100px;
-	&_title{
-		font:@fontBlueTitle;
-		color:@darkBlue;
-		text-transform: uppercase;
-		text-align: center;
-		padding-bottom: 90px;
+	@media(max-width: 600px){
+		padding-top: 50px;
 	}
 	&_center{
 		display: flex;
+		flex-direction: row;
 		margin-top: 150px;
-		@media (max-width: 600px){
-			display: flex;
+		@media (max-width: 1170px){
 			flex-direction: column;
+			margin: 0 20%;
+			align-items: center;
 		}
 		&_img1{
 			margin-top: 50px;
 			position: relative;
 			box-shadow:-215px -70px 0px 0px #55b7ff;
+			@media(max-width: 1170px){
+				transform: scale(0.8);
+			}
+			@media(max-width: 600px){
+				transform: scale(0.7);
+				margin-top: 0;
+			}
 		}
 		&_img2{
 			margin-top: 50px;
 			position: relative;
 			box-shadow:215px -70px 0px 0px #7E5AFF;
+			@media(max-width: 1170px){
+				transform: scale(0.8);
+				margin-top: 0;
+			}
+			@media(max-width: 600px){
+				transform: scale(0.7);
+				margin-top: 0;
+			}
 		}
 		&_text{
 			margin-left:70px;
+			@media(max-width: 1070px){
+				margin-left: 0;
+				margin-bottom:0;
+			}
+			@media(max-width: 600px){
+				margin-left: 20%;
+			}
+			&__right{
+				@media(max-width: 1070px){
+					margin-bottom: 50px;
+				}
+			}
 			&_subtitle{
 				margin-top: 100px;
 				margin-bottom: 20px;
 				font:300 22px/24px @fontGothamBook;
 				color: @darkBlue;
 				text-transform: uppercase;
+				@media(max-width: 1070px){
+					margin-top: 50px;
+				}
+				@media(max-width: 600px){
+					margin-top:0;
+				}
 			}
 			&_text{
 				font:@fontOpenSans;
 				color: @colorText;
 				margin-bottom: 30px;
 			}
-			
 			&_loc{
 				font:@fontOpenSansItal;
 				color:  @darkBlue;
@@ -50,7 +80,7 @@
 			&__right{
 				margin-left: 0;
 				@media (max-width: 600px){
-					margin: 0 0 70px 70px;
+					margin: 70px 0 70px 120px;
 				}
 			}
 		}

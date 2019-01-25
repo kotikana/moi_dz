@@ -3,6 +3,10 @@
 	background-size: cover;
 	position: relative;
 	margin-top: 100px;
+	@media(max-width: 1070px){
+		margin-top: 0;
+		padding: 0 10%;
+	}
 	&_title{
 		color: @colorTitle;
 		font:500 44px/22px @fontGothamReg;
@@ -11,6 +15,9 @@
 	}
 	&_slider{
 		padding-bottom: 200px;
+		@media(max-width: 950px){
+			margin: 0 12%;
+		}
 		&_item{
 			display: flex;
 			flex-direction: column;

@@ -4,6 +4,7 @@ $(document).ready(function(){
 	
 	$('.header_slider').slick({
 		slidesToShow: 1,
+				centerPadding:'0',
 	});
 
 });
@@ -27,7 +28,7 @@ $(document).ready(function(){
 			}
 		},
 		{
-			breakpoint: 480,
+			breakpoint: 950,
 			settings: {
 				slidesToShow: 1,
 				slidesToScroll: 1,
