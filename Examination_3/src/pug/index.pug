@@ -1,0 +1,195 @@
+doctype html
+html(lang='ru')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		meta(name='description', content='#')
+		meta(name='keywords', content='#')
+		title Exam #3
+		link(rel='icon', href='img/favicon.ico', type='image/x-icon')
+		link(rel='stylesheet', href='minCss/main.min.css')
+		link(rel='stylesheet', href='../src/libs/slick/slick-theme.css')
+		link(rel='stylesheet', href='../src/libs/slick/slick.css')
+		link(rel='stylesheet', href='../src/libs/Normalize.css')
+		link(href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400i', rel='stylesheet')
+	body
+		section#top
+			header.header
+				div.menu
+					.menu_logo
+						img(src='img/Logo.svg', alt='logo')
+					.menu_list
+						a.menu_list-item(href='#top') Home
+						a.menu_list-item(href='#about') About
+						a.menu_list-item(href='#services') Services
+						a.menu_list-item(href='#work')  Works
+						a.menu_list-item(href='#map') Contact
+					.menu_hidden
+						a.menu_open._menuOpen(for='navOpen', href='#') MENU
+							nav.menu_list__open._menuList
+								a.menu_list-item(href='#top') Home
+								br
+								a.menu_list-item(href='#about') About
+								br
+								a.menu_list-item(href='#services') Services
+								br
+								a.menu_list-item(href='#work') Works
+								br
+								a.menu_list-item(href='#map')  Contact
+				.center
+					h1.center_title CreativE DIGITAL Project
+					p.center_text
+						| Duis mollis, est non commodo luctus,
+						br
+						| nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+		section#about
+			.about.layout
+				.about-img
+					img.about-img_img(src="img/about.png", alt="")
+					
+					p.about-img_caption About us
+				div.about-text
+					p.about-text_reg
+						| Nullam quis risus eget 
+						span.about-text__bold urna mollis  
+						|  ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+					p.about-text_reg
+						span.about-text__bold Morbi leo risus
+						|, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+					button.button Learn More
+		section#services
+			.services.layout
+				.services-small
+					.services-item
+						img(src="img/Icon-Graphic.png", alt="icon")
+						h5.services-title GRAPHIC DESIGN
+						p.services-text Cras mattis consectetur purus sit amet fermentum.
+					.services-item
+						img(src="img/Icon-Mobile.png", alt="icon")
+						h5.services-title WEB DEVELOPMENT
+						p.services-text Cras mattis consectetur purus sit amet fermentum.
+					.services-item
+						img(src="img/Icon-SEO.png", alt="icon")
+						h5.services-title SEO & MARKETING
+						p.services-text Cras mattis consectetur purus sit amet fermentum.
+					.services-item
+						img(src="img/Icon-Web.png", alt="icon")
+						h5.services-title MOBILE DEVELOPMENT
+						p.services-text Cras mattis consectetur purus sit amet fermentum.
+				.services-item.services-item__big
+					img(src="img/Icon-Services.png", alt="icon")
+					h5.services-title.services-title__big MOBILE DEVELOPMENT
+					p.services-text.services-text__big
+						| “Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”
+						br
+						span.services-text.services-text__capt - Borat -
+		section#work
+			.work
+				img(src="img/Icon-Works.png", alt="icon")
+				h5.services-title.services-title__big RECENT WORKS
+				.layout.layout__slider
+					a.arrow_left._prevArrow(href='#')
+						img(src='img/arrow left.svg', alt='arrow')
+					.slider._slider
+						div
+							.slider_item
+								img(src='img/Works-front.png', alt='slider-img')
+						div
+							.slider_item
+								img(src='img/Works-front.png', alt='slider-img')
+						div
+							.slider_item
+								img(src='img/Works-front.png', alt='slider-img')
+						div
+							.slider_item
+								img(src='img/Works-front.png', alt='slider-img')
+					a.arrow_right._nextArrow(href='#')
+						img(src='img/arrow right.svg', alt='arrow')
+				button.button.button__work View Gallery
+		section#team
+			.team
+				img(src="img/Icon-Team.png", alt="icon")
+				h5.services-title__team.services-title__big Meet our team
+				.layout
+					a.arrow_left2._prevArrow2(href='#')
+						img(src='img/arrow left (1).svg', alt='arrow')
+					.slider2._author
+						div
+							.slider2-item
+								img(src='img/team1.png', alt='slider-img').slider2-item_img
+								.slider2-item_author
+									h5.slider2-item_title Miguel Obrien
+									h6.slider2-item_subtitle CEO & Founder
+								.social
+									a(href="#")
+										img.social_item(src="img/linked-in.svg", alt="linkedin")
+									a(href="#")
+										img.social_item(src="img/google+.svg", alt="google")
+									a(href="#")
+										img.social_item(src="img/facebook.svg", alt="facebook")
+									a(href="#")
+										img.social_item(src="img/twitter.svg", alt="twitter")
+						div
+							.slider2-item
+								img(src='img/team2.png', alt='slider-img').slider2-item_img
+								.slider2-item_author
+									h5.slider2-item_title Miguel Obrien
+									h6.slider2-item_subtitle CEO & Founder
+								.social
+									a(href="#")
+										img.social_item(src="img/linked-in.svg", alt="linkedin")
+									a(href="#")
+										img.social_item(src="img/google+.svg", alt="google")
+									a(href="#")
+										img.social_item(src="img/facebook.svg", alt="facebook")
+									a(href="#")
+										img.social_item(src="img/twitter.svg", alt="twitter")
+						div
+							.slider2-item
+								img(src='img/team3.png', alt='slider-img').slider2-item_img
+								.slider2-item_author
+									h5.slider2-item_title Miguel Obrien
+									h6.slider2-item_subtitle CEO & Founder
+								.social
+									a(href="#")
+										img.social_item(src="img/linked-in.svg", alt="linkedin")
+									a(href="#")
+										img.social_item(src="img/google+.svg", alt="google")
+									a(href="#")
+										img.social_item(src="img/facebook.svg", alt="facebook")
+									a(href="#")
+										img.social_item(src="img/twitter.svg", alt="twitter")
+									a(href="#")
+										img.social_item(src="img/behance.svg", alt="be")
+					a.arrow_right2._nextArrow2(href='#')
+						img(src='img/arrow right (1).svg', alt='arrow')
+		section#map
+			.map._map
+		section
+			.map_overlay
+				img(src="img/marker.png", alt="icon")
+				h5.services-title.services-title__big Meet our team
+				form
+					input.form-name(type='text', placeholder='Your name', required='')
+					input.form-mail(type='email', placeholder='Your Email', required='')
+					textarea(name='text')
+					input.button(type='submit', value='Send Message')
+		section#footer
+			.footer
+				p.footer_copypight © 2018 Ocolus. All Rights Reserved
+				.social
+					a(href="#")
+						img.social_item(src="img/linked-in.svg", alt="linkedin")
+					a(href="#")
+						img.social_item(src="img/google+.svg", alt="google")
+					a(href="#")
+						img.social_item(src="img/facebook.svg", alt="facebook")
+					a(href="#")
+						img.social_item(src="img/twitter.svg", alt="twitter")
+					a(href="#")
+						img.social_item(src="img/behance.svg", alt="be")
+		script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+		script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?callback=initMap')
+		script(src='minJs/libs.min.js')
+		script(src='minJs/script.min.js')

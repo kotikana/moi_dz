@@ -1,0 +1,60 @@
+.about{
+	display: flex;
+
+	&-img{
+		position: relative;
+		&_caption{
+			position: absolute;
+			top: 160px;
+			left: 100px;
+			font:600 36px/60px'ProximaNova',Arial,sans-serif;
+			color:  #fefbfc;
+			text-transform: uppercase;
+			&:before{
+				content: url(../img/icon-about.png);
+				display: block;
+				text-align: center;
+			}
+		}
+	}
+	&-text{
+		padding: 70px 30px 100px 100px;
+		display: flex;
+		flex-direction: column;
+		&_reg{
+			font:400 20px/1 'PT Sans', sans-serif;
+			color:  #665f60;
+			padding-bottom: 20px;
+
+		}
+		&__bold{
+			font-weight: 700;
+		}
+	}
+}
+.button{
+	font-family: 'PT Sans', sans-serif;
+	color:  #7d7a7c;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	background: transparent;
+	border:1px solid #7d7a7c;
+	padding:15px 50px;
+	align-self: center;
+	outline: none;
+	margin-top:100px;
+	&__work{
+		color:white;
+		border-color: white;
+	}
+	&:hover {
+		background: lightgrey;
+		box-shadow: 2px 2px grey;
+		transition: 0.3s;
+	}
+	&:active {
+		box-shadow: 0 0 grey;
+		transition: 0.3s;
+	}
+}
