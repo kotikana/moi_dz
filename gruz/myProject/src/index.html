@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
+    <title>Exam #3</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="minCss/main.min.css">
+    <link rel="stylesheet" href="../src/libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="../src/libs/slick/slick.css">
+  </head>
+  <body>
+    <section id="top">
+      <header class="header layout">
+        <div class="menu">
+          <div class="menu_logo"><img src="img/logo.png" alt="logo"></div>
+          <div class="menu_list"><a class="menu_list-item" href="#top">Home</a><a class="menu_list-item" href="#slider">slider</a><a class="menu_list-item" href="#directions"> Home</a><a class="menu_list-item" href="#schedule"> Home</a><a class="menu_list-item" href="#map"> map</a><a class="menu_list-item" href="#contacts">contact</a></div>
+          <div class="menu_hidden"><a class="menu_open _menuOpen" for="navOpen" href="#">MENU
+              <nav class="menu_list__open _menuList"><a class="menu_list-item" href="#top">Home</a><br><a class="menu_list-item" href="#slider">slider</a><br><a class="menu_list-item" href="#directions"> Home</a><br><a class="menu_list-item" href="#schedule"> Home</a><br><a class="menu_list-item" href="#map"> map</a><br><a class="menu_list-item" href="#contacts">contact</a></nav></a></div>
+        </div>
+        <div class="header_scroll"><a href="#map"><img src="../src/img/logo.png" alt="scroll"></a></div>
+      </header>
+    </section>
+    <section>
+      <input class="form-name" type="text" placeholder="Full name" required="">
+      <input class="form-mail" type="email" placeholder="Email" required="">
+      <input class="button" type="submit" value="submit">
+      <button class="button">MORE DETAILS</button>
+    </section>
+    <section>
+      <div id="slider">
+        <h1 class="title"> </h1>
+      </div><a class="arrow_left _prevArrow" href="#"><img src="img/arrow_left.png" alt="arrow"></a>
+      <div class="slider _slider">
+        <div>
+          <div class="slider_item"><img class="slider_item-img" src="img/slick1.png" alt="slider-img"></div>
+        </div>
+        <div>
+          <div class="slider_item"><img class="slider_item-img" src="img/slick1.png" alt="slider-img"></div>
+        </div>
+        <div>
+          <div class="slider_item"><img class="slider_item-img" src="img/slick1.png" alt="slider-img"></div>
+        </div>
+        <div>
+          <div class="slider_item"><img class="slider_item-img" src="img/slick1.png" alt="slider-img"></div>
+        </div>
+      </div><a class="arrow_right _nextArrow" href="#"><img src="img/arrow_right.png" alt="arrow"></a>
+    </section>
+    <section>
+      <div class="_map" id="map"></div>
+    </section>
+    <section>
+      <div class="footer">
+        <div class="social"><a href="#"><img class="social_item" src="img/img_service/fb.png" alt="facebook"></a><a href="#"><img class="social_item" src="img/img_service/TW.png" alt="twitter"></a><a href="#"><img class="social_item" src="img/img_service/GG.png" alt="google"></a><a href="#"><img class="social_item" src="img/img_service/PP.png" alt="pint"></a><a href="#"><img class="social_item" src="img/img_service/IN.png" alt="linkedin"></a></div>
+        <p class="footer_copypight">© 2018 Ocolus. All Rights Reserved</p>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+    <script src="minJs/libs.min.js"></script>
+    <script src="minJs/script.min.js"></script>
+  </body>
+</html>
